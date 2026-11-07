@@ -66,8 +66,17 @@ article pre{background:#060d26;border:1px solid var(--line);border-radius:12px;p
 mark{background:rgba(94,216,102,.35);color:inherit;border-radius:3px}
 .empty{color:var(--mute);text-align:center;padding:40px 0}
 @media (max-width:420px){.grid{grid-template-columns:1fr}}
-/* phones: keep the sticky bar short, categories scroll sideways in one row */
-@media (max-width:640px){
+/* closed <details> content must take no width (Chrome still lays it out), or cards overflow narrow screens */
+details:not([open]) > :not(summary){display:none!important}
+.pp details,article > div.l,article p,article pre,article,article h3{min-width:0;max-width:100%}
+.grid{grid-template-columns:repeat(auto-fill,minmax(min(340px,100%),1fr))}
+article .top{flex-wrap:wrap;row-gap:4px}
+article h3{overflow-wrap:anywhere}
+/* big screens: use the width (4 columns from 1600px, 6 from 2200px) */
+@media (min-width:1600px){.wrap{max-width:1640px}}
+@media (min-width:2200px){.wrap{max-width:2240px}}
+/* phones and tablets: keep the sticky bar short, categories scroll sideways in one row */
+@media (max-width:900px){
   .chips{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding-bottom:2px}
   .chips::-webkit-scrollbar{display:none}
   .chips button{flex:none}}
