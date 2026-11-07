@@ -6,6 +6,8 @@
 
 ![motions](https://img.shields.io/badge/motions-1111-5ed866) ![length](https://img.shields.io/badge/clip-10s-359b6a) ![resolution](https://img.shields.io/badge/1920%C3%971080-30fps-124164) ![code only](https://img.shields.io/badge/made%20with-code%20only-0f4b83)
 
+### 🌐 [Open online · เปิดดูออนไลน์ · 在线浏览](https://thanedpol.github.io/awesome-claude-motions/)
+
 [English](#en) · [ไทย](#th) · [简体中文](#zh) · [Full list / รายชื่อทั้งหมด / 完整列表](#list)
 
 </div>
@@ -47,6 +49,10 @@ The page also has a **search box** (works in all three languages) and **category
 > **Three languages:** switch between **ไทย · English · 简体中文** at the top right of the page. Every summary, full prompt and prompt tip is available in all three, and the page remembers your choice. Motion names stay in English. Opening the file with `?lang=en` or `?lang=zh` at the end of the address picks a language directly.
 
 ### How to open it
+
+**Online:** open **[https://thanedpol.github.io/awesome-claude-motions/](https://thanedpol.github.io/awesome-claude-motions/)** in any browser, on desktop or phone. Nothing to download.
+
+**Offline (single file):**
 
 1. Click **[Claude Motions Prompts.html](Claude%20Motions%20Prompts.html)** above.
 2. GitHub can't preview a file this large (≈133 MB). Click **Download raw file** (the ⬇ button on the right).
@@ -105,6 +111,10 @@ The file is stored with Git LFS. If you clone the repo, run `git lfs install` fi
 
 ### วิธีเปิดดู
 
+**ดูออนไลน์** เปิด **[https://thanedpol.github.io/awesome-claude-motions/](https://thanedpol.github.io/awesome-claude-motions/)** ได้เลยทั้งในคอมและมือถือ ไม่ต้องดาวน์โหลด
+
+**ดูแบบออฟไลน์ (ไฟล์เดียว)**
+
 1. กดที่ไฟล์ **[Claude Motions Prompts.html](Claude%20Motions%20Prompts.html)** ด้านบน
 2. ไฟล์ใหญ่ประมาณ 133 MB GitHub จึงแสดงตัวอย่างไม่ได้ ให้กด **Download raw file** (ปุ่ม ⬇ ด้านขวา)
 3. เปิดไฟล์ที่ดาวน์โหลดด้วย Chrome, Edge, Firefox หรือ Safari ใช้ได้แบบออฟไลน์ ไม่ต้องติดตั้งอะไร ครั้งแรกอาจใช้เวลาโหลดสักครู่
@@ -161,6 +171,10 @@ The file is stored with Git LFS. If you clone the repo, run `git lfs install` fi
 > **支持三种语言：** 在页面右上角切换 **ไทย · English · 简体中文**。每张卡片的简介、完整提示词和提示词技巧都有三种语言版本，页面会记住你的选择。动效名称保持英文。在文件地址末尾加上 `?lang=zh` 也可以直接打开中文版。
 
 ### 如何打开
+
+**在线浏览：** 用任意浏览器打开 **[https://thanedpol.github.io/awesome-claude-motions/](https://thanedpol.github.io/awesome-claude-motions/)**，电脑和手机均可，无需下载。
+
+**离线浏览（单个文件）：**
 
 1. 点击上方的 **[Claude Motions Prompts.html](Claude%20Motions%20Prompts.html)**。
 2. 文件约 133 MB，GitHub 无法预览。请点击右侧的 **Download raw file**（⬇ 按钮）下载。
