@@ -10,6 +10,18 @@
 
 </div>
 
+## Examples · ตัวอย่าง · 示例
+
+20 of the 1,111 motions (previews, actual clips are 1920×1080 · 10 s) · ตัวอย่าง 20 ท่าจากทั้งหมด 1,111 ท่า · 1,111 个动效中的 20 个示例
+
+<table>
+<tr><td align="center" width="25%"><img src="examples/spring-pop-title.webp" width="100%" alt="Spring Pop Title"><br><sub><b>0001</b> · Spring Pop Title<br>Kinetic Type</sub></td><td align="center" width="25%"><img src="examples/camera-chase-words.webp" width="100%" alt="Camera Chase Words"><br><sub><b>0544</b> · Camera Chase Words<br>Kinetic Type</sub></td><td align="center" width="25%"><img src="examples/breaking-news-stinger.webp" width="100%" alt="Breaking News Stinger"><br><sub><b>0555</b> · Breaking News Stinger<br>UI & Product</sub></td><td align="center" width="25%"><img src="examples/liquid-drip-transition.webp" width="100%" alt="Liquid Drip Transition"><br><sub><b>0390</b> · Liquid Drip Transition<br>Transitions</sub></td></tr>
+<tr><td align="center" width="25%"><img src="examples/glass-shatter.webp" width="100%" alt="Glass Shatter"><br><sub><b>0180</b> · Glass Shatter<br>Transitions</sub></td><td align="center" width="25%"><img src="examples/galaxy-vortex.webp" width="100%" alt="Galaxy Vortex"><br><sub><b>0046</b> · Galaxy Vortex<br>Particles & Space</sub></td><td align="center" width="25%"><img src="examples/fourier-epicycle-draw.webp" width="100%" alt="Fourier Epicycle Draw"><br><sub><b>0592</b> · Fourier Epicycle Draw<br>Light & Shader</sub></td><td align="center" width="25%"><img src="examples/lenia-creatures.webp" width="100%" alt="Lenia Creatures"><br><sub><b>0579</b> · Lenia Creatures<br>Shapes</sub></td></tr>
+<tr><td align="center" width="25%"><img src="examples/penrose-tiling-assemble.webp" width="100%" alt="Penrose Tiling Assemble"><br><sub><b>0598</b> · Penrose Tiling Assemble<br>Shapes</sub></td><td align="center" width="25%"><img src="examples/mandelbulb-raymarch.webp" width="100%" alt="Mandelbulb Raymarch"><br><sub><b>0489</b> · Mandelbulb Raymarch<br>3D & Camera</sub></td><td align="center" width="25%"><img src="examples/bar-chart-race.webp" width="100%" alt="Bar Chart Race"><br><sub><b>0076</b> · Bar Chart Race<br>Data</sub></td><td align="center" width="25%"><img src="examples/bento-grid-assemble.webp" width="100%" alt="Bento Grid Assemble"><br><sub><b>0635</b> · Bento Grid Assemble<br>UI & Product</sub></td></tr>
+<tr><td align="center" width="25%"><img src="examples/spectrum-city-skyline.webp" width="100%" alt="Spectrum City Skyline"><br><sub><b>0512</b> · Spectrum City Skyline<br>Audio Reactive</sub></td><td align="center" width="25%"><img src="examples/text-behind-host.webp" width="100%" alt="Text Behind Host"><br><sub><b>0530</b> · Text Behind Host<br>Footage Tracking</sub></td><td align="center" width="25%"><img src="examples/film-halation-bloom.webp" width="100%" alt="Film Halation Bloom"><br><sub><b>0653</b> · Film Halation Bloom<br>Post-process</sub></td><td align="center" width="25%"><img src="examples/token-chip-splitter.webp" width="100%" alt="Token Chip Splitter"><br><sub><b>0835</b> · Token Chip Splitter<br>Kinetic Type</sub></td></tr>
+<tr><td align="center" width="25%"><img src="examples/spell-circle-cast.webp" width="100%" alt="Spell Circle Cast"><br><sub><b>0984</b> · Spell Circle Cast<br>Light & Shader</sub></td><td align="center" width="25%"><img src="examples/thai-tone-contour-ladder.webp" width="100%" alt="Thai Tone Contour Ladder"><br><sub><b>0890</b> · Thai Tone Contour Ladder<br>Kinetic Type</sub></td><td align="center" width="25%"><img src="examples/four-stroke-engine-cycle.webp" width="100%" alt="Four Stroke Engine Cycle"><br><sub><b>1022</b> · Four Stroke Engine Cycle<br>Shapes</sub></td><td align="center" width="25%"><img src="examples/lion-dance-fringe-shimmer.webp" width="100%" alt="Lion Dance Fringe Shimmer"><br><sub><b>1111</b> · Lion Dance Fringe Shimmer<br>Particles & Space</sub></td></tr>
+</table>
+
 ---
 
 <a id="en"></a>
@@ -27,17 +39,17 @@ This repository holds **[Claude Motions Prompts.html](Claude%20Motions%20Prompts
 - **Animated preview** of the motion (embedded WebP, no internet needed)
 - **Name, number and category**
 - **Full prompt**: the look, a second-by-second timeline, how it moves, how it ends, and where the brand sits
-- **Prompt tips** ("เทคนิคการ Prompt"): what to write so an AI gets this motion right
+- **Prompt tips**: what to write so an AI gets this motion right
 - **Reference source** for motions inspired by a technique or look found online
 
-The page also has a **search box** (English and Thai) and **category filters**.
+The page also has a **search box** (works in all three languages) and **category filters**.
 
-> **Language note:** motion names are in English. Prompt text is written in Thai. You can paste a prompt into Claude and ask for it in English or Chinese, or use it as is.
+> **Three languages:** switch between **ไทย · English · 简体中文** at the top right of the page. Every summary, full prompt and prompt tip is available in all three, and the page remembers your choice. Motion names stay in English. Opening the file with `?lang=en` or `?lang=zh` at the end of the address picks a language directly.
 
 ### How to open it
 
 1. Click **[Claude Motions Prompts.html](Claude%20Motions%20Prompts.html)** above.
-2. GitHub can't preview a file this large (≈126 MB). Click **Download raw file** (the ⬇ button on the right).
+2. GitHub can't preview a file this large (≈133 MB). Click **Download raw file** (the ⬇ button on the right).
 3. Open the downloaded file in Chrome, Edge, Firefox or Safari. It works offline and needs no install. The first load takes a few seconds.
 
 The file is stored with Git LFS. If you clone the repo, run `git lfs install` first (or `git lfs pull` afterwards) to get the real file and not a small pointer.
@@ -87,14 +99,14 @@ The file is stored with Git LFS. If you clone the repo, run `git lfs install` fi
 - **เทคนิคการ Prompt** ควรเขียนอะไรให้ AI ทำท่านี้ออกมาได้ตรง
 - **แหล่งอ้างอิง** สำหรับท่าที่ได้แรงบันดาลใจจากเทคนิคหรือหน้าตาที่ค้นเจอ
 
-ในหน้ามี **ช่องค้นหา** (พิมพ์ได้ทั้งไทยและอังกฤษ) และ **ปุ่มกรองตามหมวด**
+ในหน้ามี **ช่องค้นหา** (พิมพ์ได้ทั้ง 3 ภาษา) และ **ปุ่มกรองตามหมวด**
 
-> **หมายเหตุ** ชื่อท่าเป็นภาษาอังกฤษ ส่วนเนื้อหา Prompt เขียนเป็นภาษาไทย
+> **รองรับ 3 ภาษา** กดสลับ **ไทย · English · 简体中文** ได้ที่มุมขวาบนของหน้า คำอธิบาย Prompt เต็ม และเทคนิคการ Prompt มีครบทั้ง 3 ภาษา หน้าเว็บจะจำภาษาที่เลือกไว้ ส่วนชื่อท่าเป็นภาษาอังกฤษเหมือนเดิม
 
 ### วิธีเปิดดู
 
 1. กดที่ไฟล์ **[Claude Motions Prompts.html](Claude%20Motions%20Prompts.html)** ด้านบน
-2. ไฟล์ใหญ่ประมาณ 126 MB GitHub จึงแสดงตัวอย่างไม่ได้ ให้กด **Download raw file** (ปุ่ม ⬇ ด้านขวา)
+2. ไฟล์ใหญ่ประมาณ 133 MB GitHub จึงแสดงตัวอย่างไม่ได้ ให้กด **Download raw file** (ปุ่ม ⬇ ด้านขวา)
 3. เปิดไฟล์ที่ดาวน์โหลดด้วย Chrome, Edge, Firefox หรือ Safari ใช้ได้แบบออฟไลน์ ไม่ต้องติดตั้งอะไร ครั้งแรกอาจใช้เวลาโหลดสักครู่
 
 ไฟล์นี้เก็บด้วย Git LFS ถ้าจะ clone ให้รัน `git lfs install` ก่อน (หรือ `git lfs pull` ทีหลัง) จะได้ไฟล์จริง ไม่ใช่แค่ไฟล์ตัวชี้ขนาดเล็ก
@@ -141,17 +153,17 @@ The file is stored with Git LFS. If you clone the repo, run `git lfs install` fi
 - **动态预览**（以 WebP 内嵌在文件中，无需联网）
 - **名称、编号与分类**
 - **完整提示词（Prompt）**：画面外观、逐秒时间轴、运动方式、结尾方式以及品牌位置
-- **提示词技巧**（"เทคนิคการ Prompt"）：怎样写才能让 AI 准确做出这个动效
+- **提示词技巧**：怎样写才能让 AI 准确做出这个动效
 - **参考来源**：灵感来自网上某种技术或风格的动效会注明出处
 
-页面还提供 **搜索框**（支持英文和泰文）以及 **分类筛选**。
+页面还提供 **搜索框**（三种语言均可搜索）以及 **分类筛选**。
 
-> **语言说明：** 动效名称为英文，提示词正文为泰文。可以把提示词粘贴给 Claude，请它翻译成中文或英文，也可以直接使用。
+> **支持三种语言：** 在页面右上角切换 **ไทย · English · 简体中文**。每张卡片的简介、完整提示词和提示词技巧都有三种语言版本，页面会记住你的选择。动效名称保持英文。在文件地址末尾加上 `?lang=zh` 也可以直接打开中文版。
 
 ### 如何打开
 
 1. 点击上方的 **[Claude Motions Prompts.html](Claude%20Motions%20Prompts.html)**。
-2. 文件约 126 MB，GitHub 无法预览。请点击右侧的 **Download raw file**（⬇ 按钮）下载。
+2. 文件约 133 MB，GitHub 无法预览。请点击右侧的 **Download raw file**（⬇ 按钮）下载。
 3. 用 Chrome、Edge、Firefox 或 Safari 打开下载的文件。可离线使用，无需安装。首次加载需要几秒钟。
 
 该文件使用 Git LFS 存储。如果要 clone 仓库，请先运行 `git lfs install`（或之后运行 `git lfs pull`），才能拿到真正的文件，而不是一个很小的指针文件。
